@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/najum98/Documents/FYP/Models/ContosoUniversity/ContosoUniversity.csproj": {}
+  },
+  "projects": {
+    "/home/najum98/Documents/FYP/Models/ContosoUniversity/ContosoUniversity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/najum98/Documents/FYP/Models/ContosoUniversity/ContosoUniversity.csproj",
+        "projectName": "ContosoUniversity",
+        "projectPath": "/home/najum98/Documents/FYP/Models/ContosoUniversity/ContosoUniversity.csproj",
+        "packagesPath": "/home/najum98/.nuget/packages/",
+        "outputPath": "/home/najum98/Documents/FYP/Models/ContosoUniversity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/najum98/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[10.5.3, )"
+            },
+            "HotChocolate.AspNetCore.Playground": {
+              "target": "Package",
+              "version": "[10.5.3, )"
+            },
+            "HotChocolate.Types.Filters": {
+              "target": "Package",
+              "version": "[10.5.3, )"
+            },
+            "HotChocolate.Types.Selections": {
+              "target": "Package",
+              "version": "[10.5.3, )"
+            },
+            "HotChocolate.Types.Sorting": {
+              "target": "Package",
+              "version": "[10.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "graphql.AspNetCore": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
